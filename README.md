@@ -68,12 +68,12 @@ For `inputArray = [3, 6, -2, -5, 7, 3]`, the output should be
 ## Solution:
 ```typescript
 function solution(inputArray: number[]): number {
-let num:number = inputArray[0] * inputArray[1] ;
-for (let i in inputArray){
-  let a = inputArray[+i] * inputArray[+i+1] ;
-  if(a > num ) num = a ;
-}
-return num
+    let num:number = inputArray[0] * inputArray[1] ;
+    for (let i in inputArray){
+        let a = inputArray[+i] * inputArray[+i+1] ;
+        if(a > num ) num = a ;
+    }
+    return num
 }
 ```
 Link to the problem number 4 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m)
@@ -95,7 +95,7 @@ Example
 ## Solution:
 ```typescript
 function solution(n: number): number {
-return (n**2 + (n-1)**2);
+    return (n**2 + (n-1)**2);
 }
 ```
 Link to the problem number 5 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ)
@@ -112,8 +112,8 @@ Ratiorg needs statues of sizes `4`, `5` and `7`.
 ## Solution:
 ```typescript
 function solution(statues: number[]): number {
-statues.sort((a,b) => a-b) ;
-return statues[statues.length -1 ] - statues[0] +1 - statues.length ;
+    statues.sort((a,b) => a-b) ;
+    return statues[statues.length -1 ] - statues[0] +1 - statues.length ;
 }
 
 ```
