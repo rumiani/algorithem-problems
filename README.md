@@ -1,6 +1,7 @@
 # 60 Algorithem-Problems from [codesignal.com](https://codesignal.com) sloved by `TypeScript`
 
-# 1- Write a function that returns the sum of two numbers.
+# 1- Add
+Write a function that returns the sum of two numbers.
 Example
 For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2) = 3`.
 
@@ -12,13 +13,14 @@ function solution(param1: number, param2: number): number {
 ```
 Link to the problem number 1 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
 
-# 2- Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
+# 2- Century From Year
+Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
 
 Example
 
-    - For `year = 1905`, the output should be
+   * For `year = 1905`, the output should be
     `solution(year) = 20`;
-    - For `year = 1700`, the output should be
+   * For `year = 1700`, the output should be
     `solution(year) = 17`.
 
 
@@ -30,16 +32,17 @@ function solution(year: number): number {
 ```
 Link to the problem number 2 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN)
 
-# 3- Given the string, check if it is a palindrome.
+# 3- Check Palindrome 
+Given the string, check if it is a palindrome.
 
 Example
 
-    For `inputString = "aabaa"`, the output should be
-    `solution(inputString) = true`;
-    For `inputString = "abac"`, the output should be
-    `solution(inputString) = false`;
-    For `inputString = "a"`, the output should be
-    `solution(inputString) = true`.
+   For `inputString = "aabaa"`, the output should be
+   `solution(inputString) = true`;
+   For `inputString = "abac"`, the output should be
+   `solution(inputString) = false`;
+   For `inputString = "a"`, the output should be
+   `solution(inputString) = true`.
 
 
 ## Solution:
@@ -50,7 +53,8 @@ function solution(inputString: string): boolean {
 ```
 Link to the problem number 3 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ)
 
-# 4- Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+# 4- Adjecent Elements Product
+Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
 
 Example
 
@@ -73,16 +77,17 @@ return num
 ```
 Link to the problem number 4 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m)
 
-# 5- Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
+# 5- Shape Area
+Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 
 A 1-interesting polygon is just a square with a side of length 1. An n-interesting polygon is obtained by taking the n - 1-interesting polygon and appending 1-interesting polygons to its rim, side by side. You can see the 1-, 2-, 3- and 4-interesting polygons in the picture below.
 [polygon picture](![image](https://user-images.githubusercontent.com/65465497/212409452-c23da12d-9a07-4179-ab96-363d352e9171.png))
 
 Example
 
-    For `n = 2`, the output should be
+   * For `n = 2`, the output should be
     `solution(n) = 5`;
-    For `n = 3, the output should be
+   * For `n = 3`, the output should be
     `solution(n) = 13`.
 
 ## Solution:
@@ -93,7 +98,8 @@ return (n**2 + (n-1)**2)
 ```
 Link to the problem number 5 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ)
 
-# 6- Ratiorg got statues of different sizes as a present from CodeMaster for his birthday, each statue having an non-negative integer size. Since he likes to make things perfect, he wants to arrange them from smallest to largest so that each statue will be bigger than the previous one exactly by 1. He may need some additional statues to be able to accomplish that. Help him figure out the minimum number of additional statues needed.
+# 6- Make Array Consecutive 2
+Ratiorg got statues of different sizes as a present from CodeMaster for his birthday, each statue having an non-negative integer size. Since he likes to make things perfect, he wants to arrange them from smallest to largest so that each statue will be bigger than the previous one exactly by 1. He may need some additional statues to be able to accomplish that. Help him figure out the minimum number of additional statues needed.
 
 Example
 
