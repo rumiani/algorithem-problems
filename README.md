@@ -8,8 +8,8 @@ For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2
 
 ## Solution:
 ```typescript
-function solution(param1: number, param2: number): number {
-    return param1 + param2
+function solution (param1: number, param2: number): number {
+    return param1 + param2 ;
 }
 ```
 Link to the problem number 1 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
@@ -28,7 +28,7 @@ Example
 ## Solution:
 ```typescript
 function solution(year: number): number {
-    return Math.floor((year - 1) / 100) + 1
+    return Math.floor((year - 1) / 100) + 1 ;
 }
 ```
 Link to the problem number 2 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN)
@@ -49,7 +49,7 @@ Example
 ## Solution:
 ```typescript
 function solution(inputString: string): boolean {
-    return inputString.split("").reverse().join("") == inputString
+    return inputString.split("").reverse().join("") == inputString ;
 }
 ```
 Link to the problem number 3 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ)
@@ -68,10 +68,10 @@ For `inputArray = [3, 6, -2, -5, 7, 3]`, the output should be
 ## Solution:
 ```typescript
 function solution(inputArray: number[]): number {
-let num:number = inputArray[0] * inputArray[1]
+let num:number = inputArray[0] * inputArray[1] ;
 for (let i in inputArray){
-  let a = inputArray[+i]*inputArray[+i+1]
-  if(a > num )num = a
+  let a = inputArray[+i] * inputArray[+i+1] ;
+  if(a > num ) num = a ;
 }
 return num
 }
@@ -95,7 +95,7 @@ Example
 ## Solution:
 ```typescript
 function solution(n: number): number {
-return (n**2 + (n-1)**2)
+return (n**2 + (n-1)**2);
 }
 ```
 Link to the problem number 5 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ)
@@ -112,8 +112,8 @@ Ratiorg needs statues of sizes `4`, `5` and `7`.
 ## Solution:
 ```typescript
 function solution(statues: number[]): number {
-statues.sort((a,b) => a-b)
-return statues[statues.length -1 ] - statues[0] +1 - statues.length
+statues.sort((a,b) => a-b) ;
+return statues[statues.length -1 ] - statues[0] +1 - statues.length ;
 }
 
 ```
