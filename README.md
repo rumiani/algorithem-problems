@@ -1,4 +1,5 @@
-# 60 Algorithem-Problems from [codesignal.com](https://codesignal.com) sloved by `TypeScript`
+# 60 Algorithem-Problems sloved by `TypeScript`
+Source: [codesignal.com](https://codesignal.com)
 
 # 1- Add
 Write a function that returns the sum of two numbers.
