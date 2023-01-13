@@ -4,7 +4,7 @@ Example
 For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2) = 3`.
 
 ## Solution:
-```javascript
+```typescript
 function solution(param1: number, param2: number): number {
     return param1 + param2
 }
