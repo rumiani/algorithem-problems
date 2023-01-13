@@ -1,4 +1,4 @@
-# 60 Algorithem-Problems sloved by `TypeScript`
+# 60 Algorithem-Problems sloved by ## TypeScript
 Source: [codesignal.com](https://codesignal.com)
 
 # 1- Add
