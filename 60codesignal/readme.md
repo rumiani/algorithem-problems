@@ -89,7 +89,7 @@ Below we will define an n-interesting polygon. Your task is to find the area of 
 
 A 1-interesting polygon is just a square with a side of length 1. An n-interesting polygon is obtained by taking the n - 1-interesting polygon and appending 1-interesting polygons to its rim, side by side. You can see the 1-, 2-, 3- and 4-interesting polygons in the picture below:
 
-![ Polygon Picture](https://codesignal.s3.amazonaws.com/uploads/1664318501/area.png "Polygon Picture from Codesignal website")
+![ Polygon Picture](./pics/matrix-elements-sum-1.png "Polygon Picture from Codesignal website")
 
 **Example:**
 
@@ -162,7 +162,7 @@ Given `matrix`, a rectangular matrix of integers, where each value represents th
                 [2, 0, 3, 3]]`
    the output should be `solution(matrix) = 9`.
 
-   ![ Matrix problem example one's Picture](https://codesignal.s3.amazonaws.com/uploads/1665684423/example1.png "Matrix problem example one's Picture from Codesignal website")
+   ![ Matrix problem example one's Picture](./pics/matrix-elements-sum-1.png "Matrix problem example one's Picture from Codesignal website")
 
    There are several haunted rooms, so we'll disregard them as well as any rooms beneath them. Thus, the answer is `1 + 5 + 1 + 2 = 9`.
 
@@ -171,7 +171,7 @@ Given `matrix`, a rectangular matrix of integers, where each value represents th
                 [2, 1, 3, 10]]`
    the output should be `solution(matrix) = 9`.
 
-   ![ Matrix problem example two's Picture](https://codesignal.s3.amazonaws.com/uploads/1665684423/example2.png "Matrix problem example two's Picture from Codesignal website")
+   ![ Matrix problem example two's Picture](./pics/matrix-elements-sum-2.png "Matrix problem example two's Picture from Codesignal website")
 
     Note that the free room in the final column makes the full column unsuitable for bots (not just the room directly beneath it). Thus, the answer is `1 +      1 + 1 + 5 + 1 = 9`.
 
