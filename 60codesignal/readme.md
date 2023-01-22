@@ -33,7 +33,7 @@ Given a year, return the century it is in. The first century spans from the year
 
 ```typescript
 function solution(year: number): number {
-    return Math.floor((year - 1) / 100) + 1 ;
+    return Math.ceil(year / 100);
 }
 ```
 
