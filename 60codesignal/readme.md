@@ -57,7 +57,7 @@ function solution(inputString: string): boolean {
 }
 ```
 
-Link to the problem number 3 for testing: [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ)
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ)
 
 ## 4- Adjecent Elements Product
 
