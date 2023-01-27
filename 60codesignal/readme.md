@@ -2,7 +2,8 @@
 
 Source: [codesignal.com](https://codesignal.com)
 
-## 1- Add
+<details>
+<summary> ## 1- Add </summary>
 
 Write a function that returns the sum of two numbers.
 
@@ -19,6 +20,7 @@ function solution (param1: number, param2: number): number {
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
+<details>
 
 ## 2- Century From Year
 
