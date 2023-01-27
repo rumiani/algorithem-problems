@@ -3,23 +3,27 @@
 Source: [codesignal.com](https://codesignal.com)
 
 <details>
-<summary><h1>1- Add</h1> </summary>
+    <summary>
+        <h1>
+            1- Add
+        </h1> 
+    </summary>
 
-Write a function that returns the sum of two numbers.
+    Write a function that returns the sum of two numbers.
 
-**Example:**
+    **Example:**
 
-- For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2) = 3`.
+    - For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2) = 3`.
 
-**Solution:**
+    **Solution:**
 
-```typescript
-function solution (param1: number, param2: number): number {
-    return param1 + param2 ;
-}
-```
+    ```typescript
+    function solution (param1: number, param2: number): number {
+        return param1 + param2 ;
+    }
+    ```
 
-[Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
+    [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
 </details>
 
 ## 2- Century From Year
