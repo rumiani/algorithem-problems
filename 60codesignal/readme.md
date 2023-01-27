@@ -3,7 +3,7 @@
 Source: [codesignal.com](https://codesignal.com)
 
 <details>
-1- <summary><h1>Add</h1> </summary>
+<summary><h1>1- Add</h1> </summary>
 
 Write a function that returns the sum of two numbers.
 
