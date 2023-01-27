@@ -20,7 +20,7 @@ function solution (param1: number, param2: number): number {
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
-<details>
+</details>
 
 ## 2- Century From Year
 
