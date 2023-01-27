@@ -2,29 +2,23 @@
 
 Source: [codesignal.com](https://codesignal.com)
 
-<details>
-    <summary>
-        <h1>
-            1- Add
-        </h1> 
-    </summary>
+## 1- Add
 
-    Write a function that returns the sum of two numbers.
+Write a function that returns the sum of two numbers.
 
-    **Example:**
+**Example:**
 
-    - For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2) = 3`.
+- For `param1 = 1` and `param2 = 2`, the output should be `solution(param1, param2) = 3`.
 
-    **Solution:**
+**Solution:**
 
-    ```typescript
-    function solution (param1: number, param2: number): number {
-        return param1 + param2 ;
-    }
-    ```
+```typescript
+function solution (param1: number, param2: number): number {
+    return param1 + param2 ;
+}
+```
 
-    [Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
-</details>
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa)
 
 ## 2- Century From Year
 
@@ -242,7 +236,7 @@ Given two strings, find the number of common characters between them.
 function solution(s1: string, s2: string): number {
     let arr1:string[] = [...s1];
     let arr2:string[] = [...s2];
-    let output = ''
+    let output:string = ''
     for(let i of arr1){
         if(arr2.includes(i)){
             output += i;
