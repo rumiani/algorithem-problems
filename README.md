@@ -6,5 +6,5 @@
 
 - [14 days crack algo leetcode.com](https://github.com/rumiani/algorithem-problems/blob/master/14daysleetcode/readme.md)
 
-- [Simple problems to undrestand algorithem and data structure](https://github.com/rumiani/algorithem-problems/blob/master/simplealgorithems/readme.md)
+- [Simple problems to undrestand algorithem and data structure](https://github.com/rumiani/algorithem-problems/blob/master/simplealgorithems/simplealgorithems.md)
 
