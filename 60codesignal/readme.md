@@ -296,3 +296,93 @@ function solution(a: number[]): number[] {
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-3/D6qmdBL2NYz49XHwM)
+
+## 13- Reverse In Parentheses
+
+Write a function that reverses characters in (possibly nested) parentheses in the input string.
+Input strings will always be well-formed with matching `()`s.
+
+**Example:**
+
+- For `inputString = "(bar)"`, the output should be
+    `solution(inputString) = "rab";`
+- For `inputString = "foo(bar)baz", the output should be
+    `solution(inputString) = "foorabbaz";`
+- For `inputString = "foo(bar)baz(blim)", the output should be
+    `solution(inputString) = "foorabbazmilb";`
+- For `inputString = "foo(bar(baz))blim", the output should be
+    `solution(inputString) = "foobazrabblim"`.
+    Because `"foo(bar(baz))blim"` becomes `"foo(barzab)blim"` and then `"foobazrabblim".`
+
+
+**Solution:**
+
+```typescript
+function solution(inputString: string): string {
+    let regex = /\(([^()]*)\)/i;
+    while (inputString.match(regex)) {
+        inputString = inputString.replace(regex, (match, group) => group.split('').reverse().join(''));
+    }
+    return inputString;
+}
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-3/9DgaPsE2a7M6M2Hu6)
+
+## 14- Alternating Sums
+
+Several people are standing in a row and need to be divided into two teams. The first person goes into team 1, the second goes into team 2, the third goes into team 1 again, the fourth into team 2, and so on.
+
+You are given an array of positive integers - the weights of the people. Return an array of two integers, where the first element is the total weight of team 1, and the second element is the total weight of team 2 after the division is complete.
+
+**Example:**
+
+- For `a = [50, 60, 60, 45, 70]`, the output should be
+    `solution(a) = [180, 105]`.
+
+
+**Solution:**
+
+```typescript
+function solution(a: number[]): number[] {
+    let first: number = 0;
+    let second: number = 0;
+    a.forEach( (el , i) =>{
+        i%2 == 0? first += el : second += el
+    })
+    return [ first, second ]
+}
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-4/cC5QuL9fqvZjXJsW9)
+
+## 15- Add Border
+
+Given a rectangular matrix of characters, add a border of asterisks(`*`) to it.
+
+**Example:**
+
+- For `picture = ["abc",
+                  "ded"]`
+
+the output should be
+
+    `solution(picture) = ["*****",
+                            "*abc*",
+                            "*ded*",
+                          "*****"]`
+
+
+
+**Solution:**
+
+```typescript
+function solution(picture: string[]): string[] {
+    let ast: string = "*".repeat(picture[0].length + 2)
+    picture.forEach( (el, i) => picture[i] = `*${el}*`)
+    return [ast,...picture,ast]
+}
+
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN)
