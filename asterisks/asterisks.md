@@ -1,4 +1,4 @@
-# Psterisks patterns with JavaScript for beginner developers
+# Asterisks patterns with JavaScript for beginner developers
 
 - For all the functions `n = 5`.
 - You can try every function in [jsbin](https://jsbin.com/?js,console).
