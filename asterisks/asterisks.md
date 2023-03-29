@@ -76,14 +76,14 @@ pattern2(5)
 
 ```js
 function pattern4 (n) {
-    let cols = '';
+    let col = '';
     for (let i = 0; i < n; i++) {
         let row ='';
         for (let j = 0; j < n; j++)
             row +="*";
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern4(5)
 ```
@@ -104,7 +104,7 @@ pattern4(5)
 
 ```js
 function pattern5 (n) {
-    let cols = '';
+    let col = '';
     for (let i = 0; i < n; i++) {
         let row = '';
         for (let j = 0; j < n; j++)
@@ -112,9 +112,9 @@ function pattern5 (n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern5(5)
 ```
@@ -135,7 +135,7 @@ pattern5(5)
 
 ```js
 function pattern6(n) {
-    let cols = '';
+    let col = '';
     for (let i = 0; i < n; i++) {
         let row = '';
         for (let j = 0; j < n; j++)
@@ -143,9 +143,9 @@ function pattern6(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern6(5)
 ```
@@ -166,7 +166,7 @@ pattern6(5)
 
 ```js
 function pattern7(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= 2 * n - 1; i++) {
         let row = ''
         for (let j = 1; j <= 2 * n - 1; j++)
@@ -174,9 +174,9 @@ function pattern7(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern7(5)
 ```
@@ -202,7 +202,7 @@ pattern7(5)
 ```js
 function pattern8(n) {
     console.log("nere's tne pattern:");
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++) {
@@ -211,9 +211,9 @@ function pattern8(n) {
             else 
                 row += ' ';
         }
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern8(5)
@@ -240,7 +240,7 @@ pattern8(5)
 ```js
 function pattern9(n) {
     console.log("nere's tne pattern:");
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -248,9 +248,9 @@ function pattern9(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern9(5)
 ```
@@ -275,7 +275,7 @@ pattern9(5)
 
 ```js
 function pattern10(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -283,9 +283,9 @@ function pattern10(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern10(5)
@@ -311,7 +311,7 @@ pattern10(5)
 
 ```js
 function pattern11(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -319,9 +319,9 @@ function pattern11(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern11(5)
@@ -347,15 +347,15 @@ pattern11(5)
 
 ```js
 function pattern12 (n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
        let row = '';
         for (let j = 1; j <= i; j++) {
             row += '*';
         }
-        cols += row + '\n';
+        col += row + '\n';
     } 
-    console.log(cols);
+    console.log(col);
 }
 
 pattern12(5)
@@ -377,7 +377,7 @@ pattern12(5)
 
 ```js
 function pattern13 (n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
        let row = ''
         for (let j = 1 ; j <= n; j++) 
@@ -385,9 +385,9 @@ function pattern13 (n) {
                 row +='*';
             else 
                 row +=' ';
-        cols +=row + '\n';
+        col +=row + '\n';
     } 
-    console.log(cols);
+    console.log(col);
 }
 
 pattern13(5)
@@ -409,14 +409,14 @@ pattern13(5)
 
 ```js
 function pattern14 (n) {
-    let cols = '';
+    let col = '';
     for (let i = 0; i < n; i++) {
        let asterisks = '';
         for (let j = 0; j < n - i; j++)
             asterisks += '*';
-        cols += asterisks + '\n';
+        col += asterisks + '\n';
     } 
-    console.log(cols);
+    console.log(col);
 }
 
 pattern14(5)
@@ -438,7 +438,7 @@ pattern14(5)
 
 ```js
 function pattern15 (n) {
-    let cols = '';
+    let col = '';
     for (let i = 0; i < n; i++) {
         let row = ''
         for (let j = 0; j <= n; j++) 
@@ -446,9 +446,9 @@ function pattern15 (n) {
                 row += '*';
             else 
                 row += ' ';
-    cols += row + '\n';
+    col += row + '\n';
     } 
-    console.log(cols);
+    console.log(col);
 }
 pattern15(5)
 ```
@@ -469,7 +469,7 @@ pattern15(5)
 
 ```js
 function pattern16(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j <= 2 * n; j++) 
@@ -477,9 +477,9 @@ function pattern16(n) {
                 row+= '*' ;
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern16(5)
@@ -501,7 +501,7 @@ pattern16(5)
 
 ```js
 function pattern17(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -509,9 +509,9 @@ function pattern17(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols +=  row + '\n';
+        col +=  row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern17(5)
@@ -534,7 +534,7 @@ pattern17(5)
 
 ```js
 function pattern18(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++) 
@@ -542,9 +542,9 @@ function pattern18(n) {
             row +='*';
         else 
             row +=' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern18(5)
@@ -570,7 +570,7 @@ pattern18(5)
 
 ```js
 function pattern19(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
             for (let j = 1; j <= n; j++) 
@@ -578,9 +578,9 @@ function pattern19(n) {
                     row +='*';
                 else 
                     row +=' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern19(5)
@@ -606,7 +606,7 @@ pattern19(5)
 
 ```js
 function pattern20(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = ''
         for (let j = 1; j <= 2 * n; j++)
@@ -614,9 +614,9 @@ function pattern20(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern20(5)
@@ -638,7 +638,7 @@ pattern20(5)
 
 ```js
 function pattern21(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -646,9 +646,9 @@ function pattern21(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern21(5)
@@ -670,7 +670,7 @@ pattern21(5)
 
 ```js
 function pattern22(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++) 
@@ -678,9 +678,9 @@ function pattern22(n) {
                 row += "*";
             else 
                 row += " ";
-        cols +=  row + '\n';
+        col +=  row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern22(5)
@@ -706,7 +706,7 @@ pattern22(5)
 
 ```js
 function pattern23(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++) 
@@ -714,9 +714,9 @@ function pattern23(n) {
                 row += "*";
             else 
                 row += " ";
-        cols +=  row + '\n';
+        col +=  row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern23(5)
 ```
@@ -741,7 +741,7 @@ pattern23(5)
 
 ```js
 function pattern24(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -749,9 +749,9 @@ function pattern24(n) {
                 row += "* ";
             else 
                 row += " ";
-        cols += row + '\n' 
+        col += row + '\n' 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern24(5)
 ```
@@ -776,7 +776,7 @@ pattern24(5)
 
 ```js
 function pattern25(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -784,9 +784,9 @@ function pattern25(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern25(5)
 ```
@@ -811,7 +811,7 @@ pattern25(5)
 
 ```js
 function pattern26(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -819,9 +819,9 @@ function pattern26(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern26(5)
 ```
@@ -842,7 +842,7 @@ pattern26(5)
 
 ```js
 function pattern27(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -850,9 +850,9 @@ function pattern27(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern27(5)
 ```
@@ -873,7 +873,7 @@ pattern27(5)
 
 ```js
 function pattern28(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j <= n  ; j++)
@@ -881,9 +881,9 @@ function pattern28(n) {
                 row += '*';
             else 
                 row += ' ';      
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern28(5)
 ```
@@ -904,7 +904,7 @@ pattern28(5)
 
 ```js
 function pattern29(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -912,9 +912,9 @@ function pattern29(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern29(5)
 ```
@@ -937,7 +937,7 @@ pattern29(5)
 
 ```js
 function pattern30(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -945,9 +945,9 @@ function pattern30(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern30(5)
 ```
@@ -968,7 +968,7 @@ pattern30(5)
 
 ```js
 function pattern31(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -976,9 +976,9 @@ function pattern31(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern31(5)
 ```
@@ -999,7 +999,7 @@ pattern31(5)
 
 ```js
 function pattern32(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -1007,9 +1007,9 @@ function pattern32(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern32(5)
 ```
@@ -1034,7 +1034,7 @@ pattern32(5)
 
 ```js
 function pattern33(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -1042,9 +1042,9 @@ function pattern33(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern33(5)
 ```
@@ -1069,7 +1069,7 @@ pattern33(5)
 
 ```js
 function pattern34(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -1077,9 +1077,9 @@ function pattern34(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern34(5)
 ```
@@ -1104,7 +1104,7 @@ pattern34(5)
 
 ```js
 function pattern35(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -1112,9 +1112,9 @@ function pattern35(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern35(5)
 ```
@@ -1135,7 +1135,7 @@ pattern35(5)
 
 ```js
 function pattern36(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -1143,9 +1143,9 @@ function pattern36(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n'; 
+        col += row + '\n'; 
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern36(5)
 ```
@@ -1166,7 +1166,7 @@ pattern36(5)
 
 ```js
 function pattern37(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= n; i++) {
         let row = '';
         for (let j = 1; j <= n; j++)
@@ -1174,9 +1174,9 @@ function pattern37(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 
 pattern37(5)
@@ -1198,7 +1198,7 @@ pattern37(5)
 
 ```js
 function pattern38(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -1206,9 +1206,9 @@ function pattern38(n) {
                 row += ' ';
             else 
                 row += '*';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern38(5)
 ```
@@ -1234,7 +1234,7 @@ pattern38(5)
 
 ```js
 function pattern39(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i <= 2 * n; i++) {
         let row = '';
         for (let j = 1; j <= 2 * n; j++)
@@ -1242,9 +1242,9 @@ function pattern39(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern39(5)
 ```
@@ -1270,7 +1270,7 @@ pattern39(5)
 
 ```js
 function pattern40(n) {
-    let cols = '';
+    let col = '';
     for (let i = 1; i < 2 * n; i++) {
         let row = '';
         for (let j = 1; j < 2 * n; j++)
@@ -1278,9 +1278,9 @@ function pattern40(n) {
                 row += '*';
             else 
                 row += ' ';
-        cols += row + '\n';
+        col += row + '\n';
     }
-    console.log(cols);
+    console.log(col);
 }
 pattern40(5)
 ```
