@@ -8,6 +8,6 @@
 
 - [Simple problems to undrestand algorithem and data structure](https://github.com/rumiani/algorithem-problems/blob/master/simplealgorithems/simplealgorithems.md)
 
-- - [40 patterns of asterisks with JavaScript](https://github.com/rumiani/algorithem-problems/blob/master/asterisks/asterisks.md
+- [40 patterns of asterisks with JavaScript](https://github.com/rumiani/algorithem-problems/blob/master/asterisks/asterisks.md
 )
 
