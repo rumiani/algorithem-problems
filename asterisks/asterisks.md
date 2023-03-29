@@ -6,7 +6,7 @@
 
 - For all the functions `n = 5`.
 - You can try every function in [jsbin](https://jsbin.com/?js,console).
-- If you have any suggestions fee free to open a PR.
+- If you have any suggestions feel free to open a PR.
 
 **Pattern 1:**
 
@@ -49,9 +49,8 @@ pattern3(5)
 ```js
 function pattern2 (n) {
     let row ='';
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++)
         row += '*';
-    }
     console.log(row);
 }
 pattern2(5)
@@ -70,9 +69,8 @@ function pattern4 (n) {
     let cols = '';
     for (let i = 0; i < n; i++) {
         let row ='';
-        for (let j = 0; j < n; j++) {
+        for (let j = 0; j < n; j++)
             row +="*";
-        }
         cols += row + '\n';
     }
     console.log(cols);
@@ -97,9 +95,8 @@ function pattern5 (n) {
     let cols = '';
     for (let i = 0; i < n; i++) {
         let row ='';
-        for (let j = 0; j < n; j++) {
+        for (let j = 0; j < n; j++)
             row +="*";
-        }
         cols += row + '\n';
     }
     console.log(cols);
