@@ -107,7 +107,7 @@ function pattern5 (n) {
     let cols = '';
     for (let i = 0; i < n; i++) {
         let row = '';
-        for (let j = 0; j < 2 * n; j++)
+        for (let j = 0; j < n; j++)
             if(j === i)
                 row += '*';
             else 
@@ -138,7 +138,7 @@ function pattern6(n) {
     let cols = '';
     for (let i = 0; i < n; i++) {
         let row = '';
-        for (let j = 0; j < 2 * n; j++)
+        for (let j = 0; j < n; j++)
             if(j === n - i)
                 row += '*';
             else 
@@ -203,9 +203,9 @@ pattern7(5)
 function pattern8(n) {
     console.log("nere's tne pattern:");
     let cols = '';
-    for (let i = 1; i <= 2 * n - 1; i++) {
+    for (let i = 1; i < 2 * n; i++) {
         let row = '';
-        for (let j = 1; j <= 2 * n - 1; j++) {
+        for (let j = 1; j < 2 * n; j++) {
             if( i === n || j === 2 * n - i)
                 row += '*';
             else 
@@ -241,9 +241,9 @@ pattern8(5)
 function pattern9(n) {
     console.log("nere's tne pattern:");
     let cols = '';
-    for (let i = 1; i <= 2 * n - 1; i++) {
+    for (let i = 1; i < 2 * n; i++) {
         let row = '';
-        for (let j = 1; j <= 2 * n - 1; j++)
+        for (let j = 1; j < 2 * n; j++)
             if( i === n || i === j)
                 row += '*';
             else 
