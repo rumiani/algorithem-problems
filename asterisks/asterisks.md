@@ -1,12 +1,16 @@
 # 40 patterns of asterisks with JavaScript for beginner developers
 
+- For all the functions `n = 5`.
+- You can try every function in [jsbin](https://jsbin.com/?js,console).
+- If you have any suggestions feel free to open a PR.
+
+## **You can find each pattern's function by it's number:**
+
 ![ Polygon Picture](./pics/1.png " Frist Picture asterisks")
 ![ Polygon Picture](./pics/2.png " Second Picture asterisks")
 ![ Polygon Picture](./pics/3.png " Third Picture asterisks")
 
-- For all the functions `n = 5`.
-- You can try every function in [jsbin](https://jsbin.com/?js,console).
-- If you have any suggestions feel free to open a PR.
+---
 
 **Pattern 1:**
 
@@ -22,6 +26,8 @@ pattern1()
 ```txt
 *
 ```
+
+---
 
 **Pattern 2:**
 
@@ -44,6 +50,8 @@ pattern3(5)
 *
 ```
 
+---
+
 **Pattern 3:**
 
 ```js
@@ -61,6 +69,8 @@ pattern2(5)
 ```txt
 *****
 ```
+
+---
 
 **Pattern 4:**
 
@@ -88,6 +98,8 @@ pattern4(5)
 *****
 ```
 
+---
+
 **Pattern 5:**
 
 ```js
@@ -113,6 +125,8 @@ pattern5(5)
    * 
     *
 ```
+
+---
 
 **Pattern 6:**
 
@@ -142,6 +156,8 @@ pattern6(5)
  * 
 *
 ```
+
+---
 
 **Pattern 7:**
 
@@ -175,6 +191,8 @@ pattern7(5)
     *
     *
 ```
+
+---
 
 **Pattern 8:**
 
@@ -212,6 +230,8 @@ pattern8(5)
 *
 ```
 
+---
+
 **Pattern 9:**
 
 ```js
@@ -245,6 +265,8 @@ pattern9(5)
        *
         *
 ```
+
+---
 
 **Pattern 10:**
 
@@ -280,6 +302,8 @@ pattern10(5)
 *    
 ```
 
+---
+
 **Pattern 11:**
 
 ```js
@@ -314,6 +338,8 @@ pattern11(5)
 *       *  
 ```
 
+---
+
 **Pattern 12:**
 
 ```js
@@ -335,13 +361,14 @@ pattern12(5)
 **Output:**
 
 ```txt
-n = 5
 *
 **
 ***
 ****
 *****
 ```
+
+---
 
 **Pattern 13:**
 
@@ -366,14 +393,14 @@ pattern13(5)
 **Output:**
 
 ```txt
-
-n = 5
     *
    **
   ***
  ****
 ***** 
 ```
+
+---
 
 **Pattern 14:**
 
@@ -402,6 +429,8 @@ pattern14(5)
 * 
 ```
 
+---
+
 **Pattern 15:**
 
 ```js
@@ -424,14 +453,14 @@ pattern15(5)
 **Output:**
 
 ```txt
-
-n = 5 
 *****
  ****
   ***
    **
     *
 ```
+
+---
 
 **Pattern 16:**
 
@@ -463,6 +492,8 @@ pattern16(5)
 *********
 ```
 
+---
+
 **Pattern 17:**
 
 ```js
@@ -486,8 +517,6 @@ pattern17(5)
 **Output:**
 
 ```txt
-
-n = 5
 *********
  *******
   *****
@@ -495,6 +524,8 @@ n = 5
     *
 
 ```
+
+---
 
 **Pattern 18:**
 
@@ -530,6 +561,8 @@ pattern18(5)
     *
 ```
 
+---
+
 **Pattern 19:**
 
 ```js
@@ -553,7 +586,6 @@ pattern19(5)
 **Output:**
 
 ```txt
-n = 5
 *
 **
 ***
@@ -564,6 +596,8 @@ n = 5
 **
 *
 ```
+
+---
 
 **Pattern 20:**
 
@@ -595,6 +629,8 @@ pattern20(5)
 *****
 ```
 
+---
+
 **Pattern 21:**
 
 ```js
@@ -624,6 +660,8 @@ pattern21(5)
    *****
     *****
 ```
+
+---
 
 **Pattern 22:**
 
@@ -659,6 +697,8 @@ pattern22(5)
 *****
 ```
 
+---
+
 **Pattern 23:**
 
 ```js
@@ -691,6 +731,8 @@ pattern23(5)
  ****
 *****
 ```
+
+---
 
 **Pattern 24:**
 
@@ -725,6 +767,8 @@ pattern24(5)
 * * * * *
 ```
 
+---
+
 **Pattern 25:**
 
 ```js
@@ -758,6 +802,8 @@ pattern25(5)
      *
 ```
 
+---
+
 **Pattern 26:**
 
 ```js
@@ -786,6 +832,8 @@ pattern26(5)
 *  *
 *****
 ```
+
+---
 
 **Pattern 37:**
 
@@ -816,6 +864,8 @@ pattern27(5)
 *****
 ```
 
+---
+
 **Pattern 28:**
 
 ```js
@@ -844,6 +894,8 @@ pattern28(5)
 ** 
 *
 ```
+
+---
 
 **Pattern 29:**
 
@@ -876,6 +928,8 @@ pattern29(5)
 
 ```
 
+---
+
 **Pattern 30:**
 
 ```js
@@ -905,6 +959,8 @@ pattern30(5)
 *********
 ```
 
+---
+
 **Pattern 31:**
 
 ```js
@@ -933,6 +989,8 @@ pattern31(5)
    * * 
     *
 ```
+
+---
 
 **Pattern 32:**
 
@@ -967,6 +1025,8 @@ pattern32(5)
      *
 ```
 
+---
+
 **Pattern 33:**
 
 ```js
@@ -999,6 +1059,8 @@ pattern33(5)
 * * 
 *
 ```
+
+---
 
 **Pattern 34:**
 
@@ -1033,6 +1095,8 @@ pattern34(5)
      *
 ```
 
+---
+
 **Pattern 35:**
 
 ```js
@@ -1061,6 +1125,8 @@ pattern35(5)
  *   *
 ***** 
 ```
+
+---
 
 **Pattern 36:**
 
@@ -1091,6 +1157,8 @@ pattern36(5)
     *****
 ```
 
+---
+
 **Pattern 37:**
 
 ```js
@@ -1120,6 +1188,8 @@ pattern37(5)
 *   *
 *****
 ```
+
+---
 
 **Pattern 38:**
 
@@ -1155,6 +1225,8 @@ pattern38(5)
 *       *
 ```
 
+---
+
 **Pattern 39:**
 
 ```js
@@ -1188,6 +1260,8 @@ pattern39(5)
 ****  ****
 **********
 ```
+
+---
 
 **Pattern 40:**
 
