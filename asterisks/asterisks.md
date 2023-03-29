@@ -83,7 +83,7 @@ function pattern4 (n) {
             row +="*";
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern4(5)
 ```
@@ -114,7 +114,7 @@ function pattern5 (n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern5(5)
 ```
@@ -145,7 +145,7 @@ function pattern6(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern6(5)
 ```
@@ -176,7 +176,7 @@ function pattern7(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern7(5)
 ```
@@ -213,7 +213,7 @@ function pattern8(n) {
         }
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern8(5)
@@ -250,7 +250,7 @@ function pattern9(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern9(5)
 ```
@@ -285,7 +285,7 @@ function pattern10(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern10(5)
@@ -321,7 +321,7 @@ function pattern11(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern11(5)
@@ -355,7 +355,7 @@ function pattern12 (n) {
         }
         cols += row + '\n';
     } 
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern12(5)
@@ -387,7 +387,7 @@ function pattern13 (n) {
                 row +=' ';
         cols +=row + '\n';
     } 
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern13(5)
@@ -416,7 +416,7 @@ function pattern14 (n) {
             asterisks += '*';
         cols += asterisks + '\n';
     } 
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern14(5)
@@ -448,7 +448,7 @@ function pattern15 (n) {
                 row += ' ';
     cols += row + '\n';
     } 
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern15(5)
 ```
@@ -479,7 +479,7 @@ function pattern16(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern16(5)
@@ -511,7 +511,7 @@ function pattern17(n) {
                 row += ' ';
         cols +=  row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern17(5)
@@ -544,7 +544,7 @@ function pattern18(n) {
             row +=' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern18(5)
@@ -580,7 +580,7 @@ function pattern19(n) {
                     row +=' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern19(5)
@@ -616,7 +616,7 @@ function pattern20(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern20(5)
@@ -648,7 +648,7 @@ function pattern21(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern21(5)
@@ -680,7 +680,7 @@ function pattern22(n) {
                 row += " ";
         cols +=  row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern22(5)
@@ -716,7 +716,7 @@ function pattern23(n) {
                 row += " ";
         cols +=  row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern23(5)
 ```
@@ -751,7 +751,7 @@ function pattern24(n) {
                 row += " ";
         cols += row + '\n' 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern24(5)
 ```
@@ -786,7 +786,7 @@ function pattern25(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern25(5)
 ```
@@ -821,7 +821,7 @@ function pattern26(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern26(5)
 ```
@@ -852,7 +852,7 @@ function pattern27(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern27(5)
 ```
@@ -883,7 +883,7 @@ function pattern28(n) {
                 row += ' ';      
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern28(5)
 ```
@@ -914,7 +914,7 @@ function pattern29(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern29(5)
 ```
@@ -947,7 +947,7 @@ function pattern30(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern30(5)
 ```
@@ -978,7 +978,7 @@ function pattern31(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern31(5)
 ```
@@ -1009,7 +1009,7 @@ function pattern32(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern32(5)
 ```
@@ -1044,7 +1044,7 @@ function pattern33(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern33(5)
 ```
@@ -1079,7 +1079,7 @@ function pattern34(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern34(5)
 ```
@@ -1114,7 +1114,7 @@ function pattern35(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern35(5)
 ```
@@ -1145,7 +1145,7 @@ function pattern36(n) {
                 row += ' ';
         cols += row + '\n'; 
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern36(5)
 ```
@@ -1176,7 +1176,7 @@ function pattern37(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 
 pattern37(5)
@@ -1208,7 +1208,7 @@ function pattern38(n) {
                 row += '*';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern38(5)
 ```
@@ -1244,7 +1244,7 @@ function pattern39(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern39(5)
 ```
@@ -1280,7 +1280,7 @@ function pattern40(n) {
                 row += ' ';
         cols += row + '\n';
     }
-    console.log("Here is the pattern:\n" + cols);
+    console.log(cols);
 }
 pattern40(5)
 ```
