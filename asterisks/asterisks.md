@@ -3,12 +3,13 @@
 - For all the functions `n = 5`.
 - You can try every function in [jsbin](https://jsbin.com/?js,console).
 - If you have any suggestions feel free to open a PR.
-
+- Link to the YouTube video [Asterisk Patterns](https://youtu.be/uXUG90OrV3Y)
 ## **You can find each pattern's function by it's number:**
 
 ![ Polygon Picture](./pics/1.png " Frist Picture asterisks")
 ![ Polygon Picture](./pics/2.png " Second Picture asterisks")
 ![ Polygon Picture](./pics/3.png " Third Picture asterisks")
+
 
 ---
 
