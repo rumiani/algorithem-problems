@@ -2,7 +2,7 @@
 
 ## Algorithm problems from different websites
 
-- [60 Algorithems from codesignal.com](https://github.com/rumiani/algorithem-problems/blob/334b8465ec58c33f46a5b52972990a9235943557/60codesignal/60codesignal.md)
+- [60 Algorithms from codesignal.com](https://github.com/rumiani/algorithem-problems/blob/master/60codesignal/60codesignal.md)
 
 - [14 days crack algo leetcode.com](https://github.com/rumiani/algorithem-problems/blob/master/14daysleetcode/readme.md)
 
