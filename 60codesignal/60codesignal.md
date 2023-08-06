@@ -53,7 +53,7 @@ Given the string, check if it is a palindrome.
 
 ```typescript
 function solution(inputString: string): boolean {
-    return inputString.split("").reverse().join("") == inputString ;
+    return inputString.split("").reverse().join("") === inputString ;
 }
 ```
 
