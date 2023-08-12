@@ -1011,3 +1011,27 @@ Note: You're only rearranging the order of the strings, not the order of the let
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-7/PTWhv2oWqd6p4AHB9)
+
+
+## 34- extractEachKth
+
+Given array of integers, remove each 'k^th' element from it.
+
+Note: You're only rearranging the order of the strings, not the order of the letters within the strings!
+
+**Example:**
+
+- For `inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` and `k = 3`, the output should be
+`solution(inputArray, k) = [1, 2, 4, 5, 7, 8, 10]`.
+
+
+**Solution:**
+
+```typescript
+function solution(inputArray: number[], k: number): number[] {
+    if(k === 0 || k === 1) return []
+    return inputArray.filter( (item, i) => ( i + 1) % k !== 0 )
+}
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R)
