@@ -1035,3 +1035,29 @@ function solution(inputArray: number[], k: number): number[] {
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R)
+
+
+## 35- firstDigit
+
+Find the leftmost digit that occurs in a given string.
+
+**Example:**
+
+- For `inputString = "var_1__Int"`, the output should be
+    `solution(inputString) = '1'`;
+- For `inputString = "q2q-q"`, the output should be
+    `solution(inputString) = '2'`;
+- For `inputString = "0ss"`, the output should be
+    `solution(inputString) = '0'`.
+
+
+
+**Solution:**
+
+```typescript
+function solution(str: string): string {
+  return str.match(/\d/)[0];
+}
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-8/rRGGbTtwZe2mA8Wov)
