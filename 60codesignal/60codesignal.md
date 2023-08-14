@@ -1061,3 +1061,26 @@ function solution(str: string): string {
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-8/rRGGbTtwZe2mA8Wov)
+
+## 36- differentSymbolsNaive
+
+Given a string, find the number of different characters in it.
+
+**Example:**
+
+- For `s = "cabca"`, the output should be
+`solution(s) = 3`.
+
+There are `3` different characters `a`, `b` and `c`.
+
+
+
+**Solution:**
+
+```typescript
+function solution(s: string): number {
+    return [... new Set([...s])].length
+}
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ)
