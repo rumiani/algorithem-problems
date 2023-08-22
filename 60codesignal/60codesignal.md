@@ -1214,3 +1214,31 @@ function solution(value1: number, weight1: number, value2: number, weight2: numb
 ```
 
 [Test out the solution here](https://app.codesignal.com/arcade/intro/level-9/r9azLYp2BDZPyzaG2)
+
+## 40- longestDigitsPrefix
+
+Given a string, output its longest prefix which contains only digits.
+
+**Example:**
+
+- For `inputString = "123aa1"`, the output should be
+`solution(inputString) = "123"`.
+
+
+**Solution:**
+
+```typescript
+function solution(inputString: string): string {
+  let longestPrefix: string = '';
+  for (const char of inputString) {
+    if (/\d/.test(char)) {
+      longestPrefix += char;
+    } else {
+      break;
+    }
+  }
+  return longestPrefix;
+}
+```
+
+[Test out the solution here](https://app.codesignal.com/arcade/intro/level-9/AACpNbZANCkhHWNs3)
